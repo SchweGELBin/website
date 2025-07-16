@@ -1,11 +1,72 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const domain = 'michi.my';
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="MiX Home">
+    <section>
+        <h2>Games</h2>
+            <ul>
+                <li><a href={`https://mcstatus.io/status/java/${domain}`} target="_blank">Minecraft</a></li>
+                <li><a href="https://smoo.it/#/servers"                   target="_blank">Super Mario Odyssey: Online</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Profile</h2>
+            <ul>
+                <li><a href={`mailto:michi@${domain}`}         target="_blank">EMail</a></li>
+                <li><a href="https://github.com/SchweGELBin"   target="_blank">GitHub</a></li>
+                <li><a href="https://schwegelbin.github.io/"   target="_blank">GitHub Site</a></li>
+                <li><a href="https://play.google.com/store/apps/dev?id=4625705677919333133" target="_blank">Play Store</a></li>
+                <li><a href="https://slamdontscam.com/"        target="_blank">Threads</a></li>
+                <li><a href="https://youtube.com/@schwegelbin" target="_blank">YouTube</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://github.com/SchweGELBin/hosts_kernelsu"          target="_blank">AdBlocker</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.schwegelbin.foxisadventure" target="_blank">Foxi's Adventure</a></li>
+                <li><a href="https://github.com/SchweGELBin/kernel_milk_davinci"     target="_blank">MilkKernel</a></li>
+                <li><a href="https://github.com/SchweGELBin/nix-config"              target="_blank">NixOS Config</a></li>
+                <li><a href="https://f-droid.org/packages/com.schwegelbin.openbible" target="_blank">OpenBible | F-Droid</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.schwegelbin.openbible"      target="_blank">OpenBible | PlayStore</a></li>
+                <li><a href="https://github.com/SchweGELBin/OpenBible2"              target="_blank">OpenBible | Source</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Services</h2>
+            <ol>
+                <li><a href={`https://element.${domain}`} target="_blank">Element</a></li>
+                <li><a href={`https://git.${domain}`}     target="_blank">Forgejo</a></li>
+                <li><a href={`https://www.${domain}`}     target="_blank">Home</a></li>
+                <li><a href={`https://immich.${domain}`}  target="_blank">Immich</a></li>
+                <li><a href={`https://iv.${domain}`}      target="_blank">Invidious</a></li>
+                <li><a href={`https://jelly.${domain}`}   target="_blank">Jellyfin</a></li>
+                <li><a href={`https://mail.${domain}`}    target="_blank">(Mail)</a></li>
+                <li><a href={`https://matrix.${domain}`}  target="_blank">Matrix</a></li>
+                <li><a href={`https://cloud.${domain}`}   target="_blank">Nextcloud</a></li>
+                <li><a href={`https://pt.${domain}`}      target="_blank">PeerTube</a></li>
+                <li><a href={`https://searx.${domain}`}   target="_blank">Searx</a></li>
+                <li><a href={`https://turn.${domain}`}    target="_blank">(Turn)</a></li>
+                <li><a href={`https://uptime.${domain}`}  target="_blank">Uptime Kuma</a></li>
+                <li><a href={`https://bin.${domain}`}     target="_blank">wastebin</a></li>
+            </ol>
+        </section>
 </Layout>
+
+<style>
+    h1, h2 {
+        color: #cba6f7;
+        text-decoration: none;
+        font-style: italic;
+        text-transform: capitalize;
+    }    
+    a {
+        color: #cdd6f4;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
