@@ -1,7 +1,4 @@
 # Website
-My website
-
-# Website
 [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/SchweGELBin/website/total)](https://github.com/SchweGELBin/website/releases)
 [![GitHub License](https://img.shields.io/github/license/SchweGELBin/website)](../LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/SchweGELBin/website)](https://github.com/SchweGELBin/website/releases/latest)
