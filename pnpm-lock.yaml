@@ -11,6 +11,10 @@ importers:
       astro:
         specifier: ^5.11.2
         version: 5.11.2(@types/node@24.0.14)(rollup@4.45.1)(typescript@5.8.3)
+    devDependencies:
+      '@catppuccin/unocss':
+        specifier: ^3.0.0
+        version: 3.0.0
 
 packages:
 
@@ -50,6 +54,18 @@ packages:
 
   '@capsizecss/unpack@2.4.0':
     resolution: {integrity: sha512-GrSU71meACqcmIUxPYOJvGKF0yryjN/L1aCuE9DViCTJI7bfkjgYDPD1zbNDcINJwSSP6UaBZY9GAbYDO7re0Q==}
+
+  '@catppuccin/palette@2.0.0-beta.1':
+    resolution: {integrity: sha512-FhTfw1xtM/rOW+COq20J66Ik+YHiRg240A38e2bYOwh8MDh2yZ/8I3S0+dU1brvytEN4tWtZwe340WrsJb9I8g==}
+
+  '@catppuccin/unocss@3.0.0':
+    resolution: {integrity: sha512-3VNtQxILWP7ShgELZsKj0RNhvlYfII7/dQw4RxxHje0x0/y45C/f5A43QYps/SCCsAV2jzbLRJeAw3tv16JEbA==}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      '@unocss/core': '>=0.51.0 <101'
+    peerDependenciesMeta:
+      '@unocss/core':
+        optional: true
 
   '@emnapi/runtime@1.4.4':
     resolution: {integrity: sha512-hHyapA4A3gPaDCNfiqyZUStTMqIkKRshqPIuDOXv1hcBnD4U3l8cP0T1HMCfGRxQ6V64TGCcoswChANyOAwbQg==}
@@ -1519,6 +1535,12 @@ snapshots:
       fontkit: 2.0.4
     transitivePeerDependencies:
       - encoding
+
+  '@catppuccin/palette@2.0.0-beta.1': {}
+
+  '@catppuccin/unocss@3.0.0':
+    dependencies:
+      '@catppuccin/palette': 2.0.0-beta.1
 
   '@emnapi/runtime@1.4.4':
     dependencies:
