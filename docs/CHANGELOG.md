@@ -1,3 +1,8 @@
+## [1.1.0] - 2025-08-05
+
+### 🚀 Features
+
+- Add zipline to services
 ## [1.0.0] - 2025-08-05
 
 ### 🚀 Features
@@ -9,6 +14,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Remove unused assets
+- Bump to 1.0.0
 ## [0.1.2] - 2025-07-19
 
 ### 🐛 Bug Fixes
