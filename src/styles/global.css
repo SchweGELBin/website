@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "@catppuccin/tailwindcss/mocha.css";
+
+@theme {
+  --color-ctp-primary:    var(--catppuccin-color-mauve);
+  --color-ctp-secondary:  var(--catppuccin-color-lavender);
+}
