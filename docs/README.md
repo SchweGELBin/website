@@ -4,7 +4,7 @@
 [![GitHub Release](https://img.shields.io/github/v/release/SchweGELBin/website)](https://github.com/SchweGELBin/website/releases/latest)
 
 - My Website
-- Deployed on [gh-pages](https://schwegelbin.github.io/) and my [server](https://www.michi.my/)
+- Deployed on [gh-pages](https://schwegelbin.github.io/) and my [server](https://michi.my/)
 - Available in my [nur expressions](https://github.com/SchweGELBin/nur-expressions) repo
 
 ## Build

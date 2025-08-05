@@ -1,0 +1,25 @@
+---
+import Button from '../../components/Button.astro';
+import Grid from '../../layouts/Grid.astro';
+import Layout from '../../layouts/Layout.astro';
+const domain = 'michi.my';
+---
+
+<Layout title="Services">
+    <Grid>
+        <Button text="Element"     link=`https://element.${domain}` />
+        <Button text="Forgejo"     link=`https://git.${domain}` />
+        <Button text="Home"        link=`https://${domain}` />
+        <Button text="Immich"      link=`https://immich.${domain}` />
+        <Button text="Invidious"   link=`https://iv.${domain}` />
+        <Button text="Jellyfin"    link=`https://jelly.${domain}` />
+        <Button text="Mail"        link=`https://mail.${domain}` />
+        <Button text="Matrix"      link=`https://matrix.${domain}` />
+        <Button text="Nextcloud"   link=`https://cloud.${domain}` />
+        <Button text="PeerTube"    link=`https://pt.${domain}` />
+        <Button text="Searxng"     link=`https://searx.${domain}` />
+        <Button text="Turn"        link=`https://turn.${domain}` />
+        <Button text="Uptime Kuma" link=`https://uptime.${domain}` />
+        <Button text="wastebin"    link=`https://bin.${domain}` />
+    </Grid>
+</Layout>

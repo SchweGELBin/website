@@ -1,0 +1,17 @@
+---
+import Button from '../../components/Button.astro';
+import Grid from '../../layouts/Grid.astro';
+import Layout from '../../layouts/Layout.astro';
+const domain = 'michi.my';
+---
+
+<Layout title="About">
+    <Grid>
+        <Button text="EMail"       link=`mailto:michi@${domain}` />
+        <Button text="GitHub"      link="https://github.com/SchweGELBin/" />
+        <Button text="GitHub Site" link="https://schwegelbin.github.io/" />
+        <Button text="Play Store"  link="https://play.google.com/store/apps/dev?id=4625705677919333133"/>
+        <Button text="Website"     link=`https://${domain}/` />
+        <Button text="YouTube"     link="https://youtube.com/@schwegelbin"/>
+    </Grid>
+</Layout>
