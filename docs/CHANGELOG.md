@@ -1,8 +1,17 @@
+## [1.1.1] - 2025-08-05
+
+### 🐛 Bug Fixes
+
+- Rename some services
 ## [1.1.0] - 2025-08-05
 
 ### 🚀 Features
 
 - Add zipline to services
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 1.1.0
 ## [1.0.0] - 2025-08-05
 
 ### 🚀 Features
