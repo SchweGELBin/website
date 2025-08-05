@@ -10,7 +10,7 @@
   },
   "packageManager": "pnpm@10.12.4",
   "dependencies": {
-    "astro": "^5.12.0"
+    "astro": "^5.12.8"
   },
   "devDependencies": {
     "@catppuccin/unocss": "^3.0.0"
