@@ -1,0 +1,21 @@
+---
+import AppLayout from '../../../layouts/AppLayout.astro';
+import Image from '../../../components/Image.astro';
+import StoreButton from '../../../components/StoreButton.astro';
+---
+
+<AppLayout
+    full_desc="OpenBible lets you download the Bible in multiple translations. You can choose a downloaded translation and select a book and chapter of it. Then you can read the selected chapter. If you exit out of the app, it saves your last state that you can continue, where you left. It follows your system theme (dark/light mode, language and material design) to make your experience as simple and straight forward as possible."
+    name="OpenBible"
+    short_desc="OpenBible provides the Bible as a simple Android App"
+>
+    <Image src="https://raw.githubusercontent.com/SchweGELBin/OpenBible2/refs/heads/main/metadata/en-US/images/icon.png" slot="icon" />
+    <StoreButton link="https://play.google.com/store/apps/details?id=com.schwegelbin.openbible" type="googleplay"  slot="storebuttons" />
+    <StoreButton link="https://github.com/SchweGELBin/OpenBible2/releases/latest"               type="github"      slot="storebuttons" />
+    <StoreButton link="https://apt.izzysoft.de/packages/com.schwegelbin.openbible"              type="izzyondroid" slot="storebuttons" />
+    <StoreButton link="https://f-droid.org/packages/com.schwegelbin.openbible"                  type="fdroid"      slot="storebuttons" />
+    <Image src="https://raw.githubusercontent.com/SchweGELBin/OpenBible2/refs/heads/main/metadata/en-US/images/phoneScreenshots/1.png" slot="screenshots" />
+    <Image src="https://raw.githubusercontent.com/SchweGELBin/OpenBible2/refs/heads/main/metadata/en-US/images/phoneScreenshots/2.png" slot="screenshots" />
+    <Image src="https://raw.githubusercontent.com/SchweGELBin/OpenBible2/refs/heads/main/metadata/en-US/images/phoneScreenshots/3.png" slot="screenshots" />
+    <Image src="https://raw.githubusercontent.com/SchweGELBin/OpenBible2/refs/heads/main/metadata/en-US/images/phoneScreenshots/4.png" slot="screenshots" />
+</AppLayout>
