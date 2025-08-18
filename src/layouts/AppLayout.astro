@@ -1,0 +1,25 @@
+---
+import Layout from './Layout.astro';
+const { full_desc, name, short_desc } = Astro.props;
+---
+
+<Layout title={name}>
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-6 items-center md:items-start">
+        <div class="md:mb-0 md:mr-4 flex-shrink-0 flex justify-center md:justify-start md:w-xs md:w-auto">
+            <slot name="icon" />
+        </div>
+        <div class="flex-1 flex-wrap md:text-ctp-text md:text-justify">
+            <div class="mb-4">
+                <p class="mb-2 text-xl">{short_desc}</p>
+                <p class="text-sm">{full_desc}</p>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <slot name="storebuttons" />
+            </div>
+        </div>
+    </div>
+    <div class="gap-4 grid grid-cols-2 md:grid-cols-4">
+        <slot name="screenshots" />
+    </div>
+    <slot />
+</Layout>
