@@ -1,0 +1,16 @@
+---
+const { link, type } = Astro.props;
+let src = "";
+switch (type) {
+    case "fdroid": src = "https://f-droid.org/badge/get-it-on.png"; break;
+    case "github": src = "https://raw.githubusercontent.com/SchweGELBin/artwork/refs/heads/main/badges/get-it-on-github.png"; break;
+    case "googleplay": src = "https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"; break;
+    case "izzyondroid": src = "https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"; break;
+    default: src = "";
+}
+---
+
+<a href={link}>
+    <img class="h-2xs rounded-xl w-2xs" src={src} alt={type} />
+</a>
+
