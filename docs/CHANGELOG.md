@@ -1,8 +1,33 @@
+## [1.2.0] - 2025-08-18
+
+### 🚀 Features
+
+- *(components/footer)* Add `All rights reserved.` info
+- Add Image component
+- Add StoreButton component
+- Add AppLayout
+- Add OpenBible as App
+- Add Foxi's Adventure as App
+- *(pages/projects)* Cleanup and add all projects
+
+### 🎨 Styling
+
+- Format Button.astro
+- Format foxisadventure project
+
+### ⚙️ Miscellaneous Tasks
+
+- *(page/contributions)* Add nixos-mailserver
+- Update dependencies
 ## [1.1.2] - 2025-08-05
 
 ### 🐛 Bug Fixes
 
 - Rename uptime services
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 1.1.2
 ## [1.1.1] - 2025-08-05
 
 ### 🐛 Bug Fixes
