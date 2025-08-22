@@ -1,3 +1,8 @@
+## [1.4.0] - 2025-08-22
+
+### 🚀 Features
+
+- *(pages/services)* Add The Lounge
 ## [1.3.0] - 2025-08-20
 
 ### 🚀 Features
