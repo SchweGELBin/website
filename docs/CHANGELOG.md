@@ -1,8 +1,17 @@
+## [1.4.1] - 2025-09-11
+
+### ⚙️ Miscellaneous Tasks
+
+- *(pages/projects/openbible)* Update full and short description
 ## [1.4.0] - 2025-08-22
 
 ### 🚀 Features
 
 - *(pages/services)* Add The Lounge
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 1.4.0
 ## [1.3.0] - 2025-08-20
 
 ### 🚀 Features
