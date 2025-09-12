@@ -1,8 +1,15 @@
+## [1.4.2] - 2025-09-12
+
+### ⚙️ Miscellaneous Tasks
+
+- *(pages/services)* Add new services
+- Update flake.lock
 ## [1.4.1] - 2025-09-11
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(pages/projects/openbible)* Update full and short description
+- Bump to 1.4.1
 ## [1.4.0] - 2025-08-22
 
 ### 🚀 Features
