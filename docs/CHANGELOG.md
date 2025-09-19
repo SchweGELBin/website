@@ -1,9 +1,16 @@
+## [1.5.0] - 2025-09-19
+
+### 🚀 Features
+
+- *(pages/contributions)* Add nikgapps-config
+- *(pages/contributions)* Add NixOS_SC-election-2025
 ## [1.4.2] - 2025-09-12
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(pages/services)* Add new services
 - Update flake.lock
+- Bump to 1.4.2
 ## [1.4.1] - 2025-09-11
 
 ### ⚙️ Miscellaneous Tasks
