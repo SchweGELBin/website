@@ -1,9 +1,18 @@
+## [1.5.1] - 2025-09-19
+
+### 🐛 Bug Fixes
+
+- Update pnpm hash
 ## [1.5.0] - 2025-09-19
 
 ### 🚀 Features
 
 - *(pages/contributions)* Add nikgapps-config
 - *(pages/contributions)* Add NixOS_SC-election-2025
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 1.5.0
 ## [1.4.2] - 2025-09-12
 
 ### ⚙️ Miscellaneous Tasks
