@@ -1,9 +1,19 @@
+## [1.6.0] - 2025-10-02
+
+### 🚀 Features
+
+- *(storebuttons)* Add itch
+
+### ⚙️ Miscellaneous Tasks
+
+- *(projects/foxisadventure)* Add itch store
 ## [1.5.2] - 2025-09-27
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Add Collabora
 - *(services)* Add Ollama
+- Bump to 1.5.2
 ## [1.5.1] - 2025-09-19
 
 ### 🐛 Bug Fixes
