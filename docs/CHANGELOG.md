@@ -1,3 +1,8 @@
+## [1.6.1] - 2025-10-07
+
+### ⚙️ Miscellaneous Tasks
+
+- *(contributions)* Add catppuccin-mangohud
 ## [1.6.0] - 2025-10-02
 
 ### 🚀 Features
@@ -7,6 +12,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - *(projects/foxisadventure)* Add itch store
+- Bump to 1.6.0
 ## [1.5.2] - 2025-09-27
 
 ### ⚙️ Miscellaneous Tasks
