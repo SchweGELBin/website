@@ -7,7 +7,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "website";
-  version = "1.6.1";
+  version = "1.6.2";
 
   src = ./.;
 
@@ -18,7 +18,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   pnpmDeps = pnpm.fetchDeps {
     inherit (finalAttrs) pname version src;
-    hash = "sha256-z5ZKfCeu0YFowevpawH+trfpYEQXVsMqBL1QNpks4KU=";
+    hash = "sha256-btieDnflhY0SBBdVrP+pCEUkfz2CBQTtXBnw/CvZsaM=";
     fetcherVersion = 2;
   };
 

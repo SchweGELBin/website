@@ -1,8 +1,15 @@
+## [1.6.2] - 2025-10-25
+
+### ⚙️ Miscellaneous Tasks
+
+- *(services)* Add Vaultwarden
+- *(services)* Add Radicale
 ## [1.6.1] - 2025-10-07
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(contributions)* Add catppuccin-mangohud
+- Bump to 1.6.1
 ## [1.6.0] - 2025-10-02
 
 ### 🚀 Features
