@@ -1,8 +1,15 @@
+## [1.6.4] - 2025-11-02
+
+### ⚙️ Miscellaneous Tasks
+
+- *(services)* Add Piped
+- *(ci)* Init git-cliff config
 ## [1.6.3] - 2025-10-25
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Update Radicale link
+- Bump to 1.6.3
 ## [1.6.2] - 2025-10-25
 
 ### ⚙️ Miscellaneous Tasks
