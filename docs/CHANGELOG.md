@@ -1,3 +1,8 @@
+## [1.6.7] - 2025-12-16
+
+### 🐛 Bug Fixes
+
+- *(projects)* Syntax error
 ## [1.6.6] - 2025-12-16
 
 ### ⚙️ Miscellaneous Tasks
@@ -7,6 +12,7 @@
 - *(services)* Add websurfx
 - *(services)* Add Whoogle
 - *(projects)* Add catppuccin-hyprtoolkit
+- Bump to 1.6.6
 ## [1.6.5] - 2025-11-06
 
 ### ⚙️ Miscellaneous Tasks
