@@ -1,9 +1,19 @@
+## [1.6.6] - 2025-12-16
+
+### ⚙️ Miscellaneous Tasks
+
+- *(contributions)* Add bible-feed
+- *(contributions)* Add PipePipe
+- *(services)* Add websurfx
+- *(services)* Add Whoogle
+- *(projects)* Add catppuccin-hyprtoolkit
 ## [1.6.5] - 2025-11-06
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(contributions)* Add ryuldn-web
 - *(status)* Add RyuLDN
+- Bump to 1.6.5
 ## [1.6.4] - 2025-11-02
 
 ### ⚙️ Miscellaneous Tasks
