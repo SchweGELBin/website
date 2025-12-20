@@ -1,11 +1,13 @@
 {
   lib,
+  stdenvNoCC,
+  fetchPnpmDeps,
   nodejs,
   pnpm,
-  stdenv,
+  pnpmConfigHook,
 }:
 
-stdenv.mkDerivation (finalAttrs: {
+stdenvNoCC.mkDerivation (finalAttrs: {
   pname = "website";
   version = "1.6.7";
 
@@ -13,10 +15,11 @@ stdenv.mkDerivation (finalAttrs: {
 
   nativeBuildInputs = [
     nodejs
-    pnpm.configHook
+    pnpm
+    pnpmConfigHook
   ];
 
-  pnpmDeps = pnpm.fetchDeps {
+  pnpmDeps = fetchPnpmDeps {
     inherit (finalAttrs) pname version src;
     hash = "sha256-+l+odTcNWtlU8gCK0u8MXtkPLIPfQKjeJlz0Hzwqg0A=";
     fetcherVersion = 2;
