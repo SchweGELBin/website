@@ -9,7 +9,7 @@
 
 stdenvNoCC.mkDerivation (finalAttrs: {
   pname = "website";
-  version = "1.6.7";
+  version = "1.6.8";
 
   src = ./.;
 
@@ -21,7 +21,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
 
   pnpmDeps = fetchPnpmDeps {
     inherit (finalAttrs) pname version src;
-    hash = "sha256-+l+odTcNWtlU8gCK0u8MXtkPLIPfQKjeJlz0Hzwqg0A=";
+    hash = "sha256-hFDwlO2q54cB8VOPyFSVaNtl/PFnv+6+WStPypwo/jQ=";
     fetcherVersion = 2;
   };
 

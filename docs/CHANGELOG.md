@@ -1,8 +1,22 @@
+## [1.6.8] - 2025-12-20
+
+### 🎨 Styling
+
+- *(nix)* Cleanup default.nix
+
+### ⚙️ Miscellaneous Tasks
+
+- *(services)* Capitalize Websurfx
+- *(nix)* Use top-level pnpm configuration
 ## [1.6.7] - 2025-12-16
 
 ### 🐛 Bug Fixes
 
 - *(projects)* Syntax error
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 1.6.7
 ## [1.6.6] - 2025-12-16
 
 ### ⚙️ Miscellaneous Tasks
