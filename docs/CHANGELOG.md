@@ -1,3 +1,12 @@
+## [1.6.9] - 2026-01-02
+
+### 📚 Documentation
+
+- *(license)* Update copyright year
+
+### ⚙️ Miscellaneous Tasks
+
+- *(services)* Add Weblate
 ## [1.6.8] - 2025-12-20
 
 ### 🎨 Styling
@@ -8,6 +17,7 @@
 
 - *(services)* Capitalize Websurfx
 - *(nix)* Use top-level pnpm configuration
+- Bump to 1.6.8
 ## [1.6.7] - 2025-12-16
 
 ### 🐛 Bug Fixes
