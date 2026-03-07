@@ -1,3 +1,11 @@
+## [1.6.10] - 2026-03-07
+
+### ⚙️ Miscellaneous Tasks
+
+- *(contributions)* Add websurfx
+- *(contributions)* Add tur
+- *(nix)* Update pnpm fetcherVersion to 3
+- *(contributions)* Add eden
 ## [1.6.9] - 2026-01-02
 
 ### 📚 Documentation
@@ -7,6 +15,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Add Weblate
+- Bump to 1.6.9
 ## [1.6.8] - 2025-12-20
 
 ### 🎨 Styling

@@ -9,7 +9,7 @@
 
 stdenvNoCC.mkDerivation (finalAttrs: {
   pname = "website";
-  version = "1.6.9";
+  version = "1.6.10";
 
   src = ./.;
 
