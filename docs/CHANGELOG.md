@@ -1,3 +1,8 @@
+## [1.6.11] - 2026-03-16
+
+### ⚙️ Miscellaneous Tasks
+
+- *(services)* Add BlueMap
 ## [1.6.10] - 2026-03-07
 
 ### ⚙️ Miscellaneous Tasks
@@ -6,6 +11,7 @@
 - *(contributions)* Add tur
 - *(nix)* Update pnpm fetcherVersion to 3
 - *(contributions)* Add eden
+- Bump to 1.6.10
 ## [1.6.9] - 2026-01-02
 
 ### 📚 Documentation
