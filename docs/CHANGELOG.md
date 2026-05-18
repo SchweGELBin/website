@@ -1,8 +1,20 @@
+## [1.6.12] - 2026-05-18
+
+### ⚙️ Miscellaneous Tasks
+
+- *(services)* Remove Collabora
+- *(services)* Remove OnlyOffice
+- *(services)* Add CryptPad
+- *(contributions)* Add finamp
+- *(projects)* Add Galaxy
+- *(projects)* Add MilkyWay
+- *(projects)* Add bunfy
 ## [1.6.11] - 2026-03-16
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Add BlueMap
+- Bump to 1.6.11
 ## [1.6.10] - 2026-03-07
 
 ### ⚙️ Miscellaneous Tasks
