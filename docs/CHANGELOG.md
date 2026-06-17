@@ -1,3 +1,8 @@
+## [1.6.13] - 2026-06-17
+
+### ⚙️ Miscellaneous Tasks
+
+- *(services)* Add MicroBin
 ## [1.6.12] - 2026-05-18
 
 ### ⚙️ Miscellaneous Tasks
@@ -9,6 +14,7 @@
 - *(projects)* Add Galaxy
 - *(projects)* Add MilkyWay
 - *(projects)* Add bunfy
+- Bump to 1.6.12
 ## [1.6.11] - 2026-03-16
 
 ### ⚙️ Miscellaneous Tasks
