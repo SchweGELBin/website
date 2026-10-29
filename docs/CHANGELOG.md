@@ -1,3 +1,17 @@
+## [1.7.0] - 2026-10-29
+
+### 🚀 Features
+
+- Add funding page
+
+### 📚 Documentation
+
+- *(changelog)* Update cliff.toml
+
+### ⚙️ Miscellaneous Tasks
+
+- Update domain from `michi.my` to `michi.im`
+- *(projects)* Add PolyDrift
 ## [1.6.13] - 2026-06-17
 
 ### ⚙️ Miscellaneous Tasks
@@ -14,13 +28,11 @@
 - *(projects)* Add Galaxy
 - *(projects)* Add MilkyWay
 - *(projects)* Add bunfy
-- Bump to 1.6.12
 ## [1.6.11] - 2026-03-16
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Add BlueMap
-- Bump to 1.6.11
 ## [1.6.10] - 2026-03-07
 
 ### ⚙️ Miscellaneous Tasks
@@ -29,7 +41,6 @@
 - *(contributions)* Add tur
 - *(nix)* Update pnpm fetcherVersion to 3
 - *(contributions)* Add eden
-- Bump to 1.6.10
 ## [1.6.9] - 2026-01-02
 
 ### 📚 Documentation
@@ -39,7 +50,6 @@
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Add Weblate
-- Bump to 1.6.9
 ## [1.6.8] - 2025-12-20
 
 ### 🎨 Styling
@@ -50,16 +60,11 @@
 
 - *(services)* Capitalize Websurfx
 - *(nix)* Use top-level pnpm configuration
-- Bump to 1.6.8
 ## [1.6.7] - 2025-12-16
 
 ### 🐛 Bug Fixes
 
 - *(projects)* Syntax error
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 1.6.7
 ## [1.6.6] - 2025-12-16
 
 ### ⚙️ Miscellaneous Tasks
@@ -69,40 +74,34 @@
 - *(services)* Add websurfx
 - *(services)* Add Whoogle
 - *(projects)* Add catppuccin-hyprtoolkit
-- Bump to 1.6.6
 ## [1.6.5] - 2025-11-06
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(contributions)* Add ryuldn-web
 - *(status)* Add RyuLDN
-- Bump to 1.6.5
 ## [1.6.4] - 2025-11-02
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Add Piped
 - *(ci)* Init git-cliff config
-- Bump to 1.6.4
 ## [1.6.3] - 2025-10-25
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Update Radicale link
-- Bump to 1.6.3
 ## [1.6.2] - 2025-10-25
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Add Vaultwarden
 - *(services)* Add Radicale
-- Bump to 1.6.2
 ## [1.6.1] - 2025-10-07
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(contributions)* Add catppuccin-mangohud
-- Bump to 1.6.1
 ## [1.6.0] - 2025-10-02
 
 ### 🚀 Features
@@ -112,55 +111,39 @@
 ### ⚙️ Miscellaneous Tasks
 
 - *(projects/foxisadventure)* Add itch store
-- Bump to 1.6.0
 ## [1.5.2] - 2025-09-27
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(services)* Add Collabora
 - *(services)* Add Ollama
-- Bump to 1.5.2
 ## [1.5.1] - 2025-09-19
 
 ### 🐛 Bug Fixes
 
 - Update pnpm hash
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 1.5.1
 ## [1.5.0] - 2025-09-19
 
 ### 🚀 Features
 
 - *(pages/contributions)* Add nikgapps-config
 - *(pages/contributions)* Add NixOS_SC-election-2025
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 1.5.0
 ## [1.4.2] - 2025-09-12
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(pages/services)* Add new services
 - Update flake.lock
-- Bump to 1.4.2
 ## [1.4.1] - 2025-09-11
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(pages/projects/openbible)* Update full and short description
-- Bump to 1.4.1
 ## [1.4.0] - 2025-08-22
 
 ### 🚀 Features
 
 - *(pages/services)* Add The Lounge
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 1.4.0
 ## [1.3.0] - 2025-08-20
 
 ### 🚀 Features
@@ -169,10 +152,6 @@
 - *(pages/about)* Add GitLab and Codeberg
 - *(components/Footer)* Add source code
 - *(components/footer)* Link "SchweGELBin" to GitHub, use tab between "Source Code." and "All rights reserved."
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 1.3.0
 ## [1.2.0] - 2025-08-18
 
 ### 🚀 Features
@@ -194,34 +173,21 @@
 
 - *(page/contributions)* Add nixos-mailserver
 - Update dependencies
-- Bump to 1.2.0
 ## [1.1.2] - 2025-08-05
 
 ### 🐛 Bug Fixes
 
 - Rename uptime services
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 1.1.2
 ## [1.1.1] - 2025-08-05
 
 ### 🐛 Bug Fixes
 
 - Rename some services
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 1.1.1
 ## [1.1.0] - 2025-08-05
 
 ### 🚀 Features
 
 - Add zipline to services
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 1.1.0
 ## [1.0.0] - 2025-08-05
 
 ### 🚀 Features
@@ -233,16 +199,11 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Remove unused assets
-- Bump to 1.0.0
 ## [0.1.2] - 2025-07-19
 
 ### 🐛 Bug Fixes
 
 - *(nix)* Specify pnpm fetcherVersion
-
-### ⚙️ Miscellaneous Tasks
-
-- Bump to 0.1.2
 ## [0.1.1] - 2025-07-17
 
 ### 📚 Documentation
@@ -253,7 +214,6 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Add nix files
-- Bump to 0.1.1
 ## [0.1.0] - 2025-07-17
 
 ### 🚀 Features
@@ -265,4 +225,3 @@
 - Init
 - Specify `packageManager` in package.json
 - Add deploy to gh-pages workflow
-- Bump to 0.1.0
